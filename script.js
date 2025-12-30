@@ -99,7 +99,7 @@ function initLightbox() {
     const closeBtn = lightbox.querySelector('.lightbox-close');
 
     // Add click event to all artwork images
-    const artworkImages = document.querySelectorAll('.artwork-item img, .series-hero img, .series-hero-small img');
+    const artworkImages = document.querySelectorAll('.artwork-item img, .series-hero img, .series-hero-small img, .series-artwork-item img');
     
     artworkImages.forEach(img => {
         img.addEventListener('click', function() {
@@ -107,10 +107,14 @@ function initLightbox() {
             lightboxImg.src = this.src;
             lightboxImg.alt = this.alt;
             
-            // Get caption from artwork-caption if exists
+            // Get caption from artwork-caption or series-artwork-info
             const caption = this.parentElement.querySelector('.artwork-caption');
+            const seriesInfo = this.closest('.series-artwork-item')?.querySelector('.series-artwork-info');
+            
             if (caption) {
                 lightboxCaption.innerHTML = caption.innerHTML;
+            } else if (seriesInfo) {
+                lightboxCaption.innerHTML = seriesInfo.innerHTML;
             } else {
                 lightboxCaption.innerHTML = `<p>${this.alt}</p>`;
             }

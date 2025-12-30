@@ -12,71 +12,96 @@
 <body>
     <header>
         <div class="header-container">
-            <div class="artist-name">NGUYEN THANH</div>
-            <nav>
-                <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT</a>
-                <a href="artworks.html" class="active">ARTWORKS</a>
-                <a href="exhibitions.html">EXHIBITIONS</a>
-                <a href="news.html">NEWS</a>
-                <a href="contact.html">CONTACT</a>
+            <nav class="nav-left">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="artworks.html" class="active">Artworks</a>
+            </nav>
+            
+            <a href="index.html" class="logo">NGUYEN THANH</a>
+            
+            <nav class="nav-right">
+                <a href="exhibitions.html">Exhibitions</a>
+                <a href="news.html">News</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="page-content series-detail-page">
-            <!-- Back to Artworks -->
-            <div class="back-link">
-                <a href="artworks.html">← Back to Artworks</a>
-            </div>
-
-            <!-- Series Header -->
-            <div class="page-header">
-                <p class="page-subtitle">ARTWORKS</p>
-                <h1 class="page-title">FLOWERS IN THE CITY</h1>
-            </div>
-
-            <!-- Hero Image -->
-            <div class="series-hero-large artwork-item">
-                <img src="images/flowers_in_the_city/hoa7.png" alt="Flowers in the City">
-            </div>
-
-            <!-- Artwork Grid -->
-            <div class="artwork-grid">
-                <div class="artwork-item">
-                    <img src="images/flowers_in_the_city/hoa8.png" alt="Flowers in the City">
-                    <div class="artwork-caption">
-                        <p>Silent Horizon, 2025</p>
-                        <p>Oil on canvas, 139 × 192 cm</p>
+        <!-- Series Hero Section -->
+        <section class="artist-hero">
+            <div class="artist-hero-container">
+                <div class="artist-hero-info">
+                    <a href="artworks.html" class="back-link-simple">← Back</a>
+                    <h1>Flowers in the City</h1>
+                    <p class="artist-location">Oil on canvas series</p>
+                    <p class="artist-birth">2023</p>
+                    
+                    <div class="artist-bio">
+                        <p>The "Flowers in the City" series captures the delicate beauty and vibrant colors of urban flora. Through expressive brushwork and luminous color palettes, these paintings celebrate the resilience of nature within metropolitan spaces, creating moments of serenity and natural wonder.</p>
                     </div>
                 </div>
-                <div class="artwork-item">
-                    <img src="images/flowers_in_the_city/hoa6.png" alt="Flowers in the City">
-                    <div class="artwork-caption">
-                        <p>Urban Silence, 2025</p>
-                        <p>Oil on canvas, 120 × 150 cm</p>
-                    </div>
-                </div>
-                <div class="artwork-item">
-                    <img src="images/flowers_in_the_city/hoa2.png" alt="Flowers in the City">
-                    <div class="artwork-caption">
-                        <p>Contemplation, 2025</p>
-                        <p>Oil on canvas, 100 × 120 cm</p>
-                    </div>
-                </div>
-                <div class="artwork-item">
-                    <img src="images/flowers_in_the_city/hoa3.png" alt="Flowers in the City">
-                    <div class="artwork-caption">
-                        <p>Morning Light, 2025</p>
-                        <p>Oil on canvas, 130 × 160 cm</p>
-                    </div>
+                <div class="artist-hero-image">
+                    <img src="images/flowers_in_the_city/hoa7.png" alt="Flowers in the City">
                 </div>
             </div>
+        </section>
 
-            <!-- Back to Artworks -->
-            <div class="back-link bottom">
-                <a href="artworks.html">← Back to Artworks</a>
+        <!-- Artworks Grid Section -->
+        <section class="series-artworks-section">
+            <div class="series-artworks-container">
+                <h2 class="section-title">Artworks</h2>
+                
+                <div class="series-artworks-grid">
+                    <div class="series-artwork-item">
+                        <img src="images/flowers_in_the_city/hoa7.png" alt="Flowers in the City">
+                        <div class="series-artwork-info">
+                            <p class="artwork-title">Flowers in the City I</p>
+                            <p class="artwork-year">2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="series-artwork-item">
+                        <img src="images/flowers_in_the_city/hoa8.png" alt="Blossom Dream">
+                        <div class="series-artwork-info">
+                            <p class="artwork-title">Blossom Dream</p>
+                            <p class="artwork-year">2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="series-artwork-item">
+                        <img src="images/flowers_in_the_city/hoa6.png" alt="Floral Rhythm">
+                        <div class="series-artwork-info">
+                            <p class="artwork-title">Floral Rhythm</p>
+                            <p class="artwork-year">2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="series-artwork-item">
+                        <img src="images/flowers_in_the_city/hoa2.png" alt="Garden Light">
+                        <div class="series-artwork-info">
+                            <p class="artwork-title">Garden Light</p>
+                            <p class="artwork-year">2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="series-artwork-item">
+                        <img src="images/flowers_in_the_city/hoa3.png" alt="Spring Memory">
+                        <div class="series-artwork-info">
+                            <p class="artwork-title">Spring Memory</p>
+                            <p class="artwork-year">2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="series-artwork-item">
+                        <img src="images/flowers_in_the_city/hoa4.png" alt="Petal Dance">
+                        <div class="series-artwork-info">
+                            <p class="artwork-title">Petal Dance</p>
+                            <p class="artwork-year">2023</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

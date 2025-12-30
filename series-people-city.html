@@ -12,20 +12,109 @@
 <body>
     <header>
         <div class="header-container">
-            <div class="artist-name">NGUYEN THANH</div>
-            <nav>
-                <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT</a>
-                <a href="artworks.html" class="active">ARTWORKS</a>
-                <a href="exhibitions.html">EXHIBITIONS</a>
-                <a href="news.html">NEWS</a>
-                <a href="contact.html">CONTACT</a>
+            <nav class="nav-left">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="artworks.html" class="active">Artworks</a>
+            </nav>
+            
+            <a href="index.html" class="logo">NGUYEN THANH</a>
+            
+            <nav class="nav-right">
+                <a href="exhibitions.html">Exhibitions</a>
+                <a href="news.html">News</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="page-content series-detail-page">
+        <!-- Series Hero Section -->
+        <section class="artist-hero">
+            <div class="artist-hero-container">
+                <div class="artist-hero-info">
+                    <a href="artworks.html" class="back-link-simple">← Back</a>
+                    <h1>People in the City</h1>
+                    <p class="artist-location">Oil on canvas series</p>
+                    <p class="artist-birth">2022</p>
+                    
+                    <div class="artist-bio">
+                        <p>The "People in the City" series captures the human experience within urban environments. Through layered compositions and emotional depth, these paintings explore the relationships, movements, and stories of individuals navigating city life.</p>
+                    </div>
+                </div>
+                <div class="artist-hero-image">
+                    <img src="images/people_in_the_city/nguoi1.png" alt="People in the City">
+                </div>
+            </div>
+        </section>
+
+        <section class="series-artworks-section">
+            <div class="series-artworks-container">
+                <h2 class="section-title">Artworks</h2>
+                
+                <div class="series-artworks-grid">
+                    <div class="series-artwork-item">
+                        <img src="images/people_in_the_city/nguoi1.png" alt="People in the City">
+                        <div class="series-artwork-info">
+                            <p class="artwork-title">People in the City I</p>
+                            <p class="artwork-year">2022</p>
+                        </div>
+                    </div>
+                    
+                    <div class="series-artwork-item">
+                        <img src="images/people_in_the_city/nguoi2.png" alt="Urban Encounter">
+                        <div class="series-artwork-info">
+                            <p class="artwork-title">Urban Encounter</p>
+                            <p class="artwork-year">2022</p>
+                        </div>
+                    </div>
+                    
+                    <div class="series-artwork-item">
+                        <img src="images/people_in_the_city/nguoi3.png" alt="Street Stories">
+                        <div class="series-artwork-info">
+                            <p class="artwork-title">Street Stories</p>
+                            <p class="artwork-year">2022</p>
+                        </div>
+                    </div>
+                    
+                    <div class="series-artwork-item">
+                        <img src="images/people_in_the_city/nguoi4.png" alt="City Rhythm">
+                        <div class="series-artwork-info">
+                            <p class="artwork-title">City Rhythm</p>
+                            <p class="artwork-year">2022</p>
+                        </div>
+                    </div>
+                    
+                    <div class="series-artwork-item">
+                        <img src="images/people_in_the_city/nguoi5.png" alt="Faces of the City">
+                        <div class="series-artwork-info">
+                            <p class="artwork-title">Faces of the City</p>
+                            <p class="artwork-year">2022</p>
+                        </div>
+                    </div>
+                    
+                    <div class="series-artwork-item">
+                        <img src="images/people_in_the_city/nguoi6.png" alt="Human Connection">
+                        <div class="series-artwork-info">
+                            <p class="artwork-title">Human Connection</p>
+                            <p class="artwork-year">2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <p>© Nguyen Thanh Gallery</p>
+            <p>Ho Chi Minh City, Vietnam</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
             <!-- Back to Artworks -->
             <div class="back-link">
                 <a href="artworks.html">← Back to Artworks</a>

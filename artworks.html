@@ -12,53 +12,63 @@
 <body>
     <header>
         <div class="header-container">
-            <div class="artist-name">NGUYEN THANH</div>
-            <nav>
-                <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT</a>
-                <a href="artworks.html" class="active">ARTWORKS</a>
-                <a href="exhibitions.html">EXHIBITIONS</a>
-                <a href="news.html">NEWS</a>
-                <a href="contact.html">CONTACT</a>
+            <nav class="nav-left">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="artworks.html" class="active">Artworks</a>
+            </nav>
+            
+            <a href="index.html" class="logo">NGUYEN THANH</a>
+            
+            <nav class="nav-right">
+                <a href="exhibitions.html">Exhibitions</a>
+                <a href="news.html">News</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="page-content artworks-page">
-            
-            <!-- Preview Box Full / Khung xem trước full màn hình -->
-            <div class="series-preview-full">
-                <img id="preview-image" src="images/place_in_the_city/mebeo.png" alt="Series Preview">
+        <!-- Artworks Series List -->
+        <section class="artworks-list-section">
+            <div class="artworks-list-container">
+                <h1 class="artworks-page-title">Artworks</h1>
                 
-                <!-- Page Header Overlay -->
-                <!-- <div class="artworks-header-overlay">
-                    <h1 class="page-title">ARTWORKS</h1>
-                    <p class="subtitle">Selected Paintings</p>
-                </div> -->
-
-                <!-- Series List Overlay / Danh sách series nằm trên góc phải -->
-                <div class="series-list-overlay">
-                
-                    <!-- Featured Series - Chủ đề chính -->
-                    <a href="series-peace-city.html" class="series-item active" data-hero-image="images/place_in_the_city/mebeo.png">
-                        <h2>PLACE IN THE CITY</h2>
+                <div class="series-list-grid">
+                    <a href="series-peace-city.html" class="series-link">
+                        <h2>Place in the City</h2>
                     </a>
-
-                    <a href="series-flowers-city.html" class="series-item" data-hero-image="images/flowers_in_the_city/hoa2.png">
-                        <h2>FLOWERS IN THE CITY</h2>
+                    
+                    <a href="series-flowers-city.html" class="series-link">
+                        <h2>Flowers in the City</h2>
                     </a>
-
-                    <a href="series-girls-city.html" class="series-item" data-hero-image="images/girls_in_the_city/girl1.png">
-                        <h2>GIRLS IN THE CITY</h2>
+                    
+                    <a href="series-girls-city.html" class="series-link">
+                        <h2>Girls in the City</h2>
                     </a>
-
-                    <a href="series-people-city.html" class="series-item" data-hero-image="images/people_in_the_city/nguoi1.png">
-                        <h2>PEOPLE IN THE CITY</h2>
+                    
+                    <a href="series-people-city.html" class="series-link">
+                        <h2>People in the City</h2>
                     </a>
-
-                    <a href="series-suburban.html" class="series-item" data-hero-image="images/suburban/lieu1.png">
-                        <h2>SUBURBAN</h2>
+                    
+                    <a href="series-suburban.html" class="series-link">
+                        <h2>Suburban</h2>
+                    </a>
+                    
+                    <a href="#" class="series-link">
+                        <h2>Urban Landscapes</h2>
+                    </a>
+                    
+                    <a href="#" class="series-link">
+                        <h2>Abstract Expressions</h2>
+                    </a>
+                    
+                    <a href="#" class="series-link">
+                        <h2>Color Studies</h2>
+                    </a>
+                    
+                    <a href="#" class="series-link">
+                        <h2>Reflections</h2>
                     </a>
                 </div>
             </div>
