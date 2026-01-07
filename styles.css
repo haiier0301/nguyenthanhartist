@@ -378,11 +378,13 @@ main {
 
 .artist-hero-image {
     position: relative;
+    padding: 50px;
 }
 
 .artist-hero-image img {
     width: 100%;
     height: auto;
+    
     /* aspect-ratio: 4/5; */
     /* object-fit: cover; */
     background: #e8e8e8;
