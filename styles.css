@@ -784,22 +784,26 @@ main {
 }
 
 .series-artwork-item {
-    background-color: #f0f0f0;
-    padding: 70px;
     display: flex;
     flex-direction: column;
+}
+
+.artwork-image-box {
+    background-color: #f6f6f5;
+    padding: 40px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 500px;
+    margin-bottom: 20px;
+    min-height: 400px;
 }
 
 .series-artwork-item img {
     width: 100%;
     height: auto;
-    max-height: 400px;
+    max-height: 350px;
     object-fit: contain;
     background: transparent;
-    margin-bottom: 20px;
     cursor: pointer;
     transition: opacity 0.3s ease;
 }
@@ -811,6 +815,11 @@ main {
 .series-artwork-info {
     text-align: center;
     width: 100%;
+}
+
+.bottom-back-link {
+    margin-top: 80px;
+    text-align: center;
 }
 
 .artwork-title {
@@ -1301,12 +1310,16 @@ footer {
     }
     
     .series-artwork-item {
+        min-height: auto;
+    }
+    
+    .artwork-image-box {
         padding: 30px;
-        min-height: 450px;
+        min-height: 350px;
     }
     
     .series-artwork-item img {
-        max-height: 350px;
+        max-height: 300px;
     }
     
     .series-detail-page {
@@ -1503,12 +1516,16 @@ footer {
     }
     
     .series-artwork-item {
+        min-height: auto;
+    }
+    
+    .artwork-image-box {
         padding: 25px;
-        min-height: 400px;
+        min-height: 300px;
     }
     
     .series-artwork-item img {
-        max-height: 300px;
+        max-height: 250px;
     }
     
     .news-grid {
@@ -1765,12 +1782,16 @@ footer {
     }
     
     .series-artwork-item {
+        min-height: auto;
+    }
+    
+    .artwork-image-box {
         padding: 20px;
-        min-height: 350px;
+        min-height: 250px;
     }
     
     .series-artwork-item img {
-        max-height: 280px;
+        max-height: 200px;
     }
     
     .news-grid {
@@ -1881,12 +1902,16 @@ footer {
     }
     
     .series-artwork-item {
+        min-height: auto;
+    }
+    
+    .artwork-image-box {
         padding: 20px;
-        min-height: 350px;
+        min-height: 250px;
     }
     
     .series-artwork-item img {
-        max-height: 280px;
+        max-height: 200px;
     }
     
     .lightbox-image {
